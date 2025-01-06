@@ -24,7 +24,7 @@ This project utilizes a Raspberry Pi Pico microcontroller and an ink screen disp
 
 4. Modify the credentials file with SSID and password for internet connection.
 
-5. Update the Site ID of interest. Search the ID of the station in SL's system by looking in https://www.trafiklab.se/api/trafiklab-apis/sl/transport/.
+5. Update the Site ID of interest. Search the ID of the station in SL's system by looking in [https://www.trafiklab.se/api/trafiklab-apis/sl/transport/](Trafiklab) .
 
 6. Connect the device to a power outlet and let the device run as needed.
 
