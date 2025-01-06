@@ -16,17 +16,17 @@ This project utilizes a Raspberry Pi Pico microcontroller and an ink screen disp
 
 # Usage
 
-Connect the ink screen display to the Raspberry Pico according to the manufacturer's instructions.
+1. Connect the ink screen display to the Raspberry Pico according to the manufacturer's instructions.
 
-Power on the Raspberry Pi and the display will initialize.
+2. Power on the Raspberry Pi and the display will initialize.
 
-Copy all the scripts into the Raspberry Pi.
+3. Copy all the scripts into the Raspberry Pi.
 
-Modify the credentials file with SSID and password for internet connection.
+4. Modify the credentials file with SSID and password for internet connection.
 
-Update the Site ID of interest. Search the ID of the station in SL's system by looking in https://www.trafiklab.se/api/trafiklab-apis/sl/transport/.
+5. Update the Site ID of interest. Search the ID of the station in SL's system by looking in https://www.trafiklab.se/api/trafiklab-apis/sl/transport/.
 
-Connect the device to a power outlet and let the device run as needed.
+6. Connect the device to a power outlet and let the device run as needed.
 
 
 # Contributing
