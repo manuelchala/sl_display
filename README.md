@@ -1,13 +1,13 @@
-# SL Display - Raspberry Pico Pi Ink Screen Display
+# SL Display - Raspberry Pi Pico with Ink Screen Display
 This repository include all the files required to display departures from Stockholm's public tranport system.
 
-This project utilizes a Raspberry Pico microcontroller and an ink screen display to showcase dynamic content. The project integrates code and libraries provided by both the manufacturer of the display and Raspberry Pi.
+This project utilizes a Raspberry Pi Pico microcontroller and an ink screen display to showcase dynamic content. The project integrates code and libraries provided by both the manufacturer of the display and Raspberry Pi.
 
 # Requirements
 
-- Raspberry Pico
+- Raspberry Pi Pico
 
-- Ink screen display (compatible with Raspberry Pico)
+- Pico-ePaper-3.7 ink screen display compatible with Raspberry Pi Pico
 
 - Micro-USB cable
 
@@ -18,9 +18,16 @@ This project utilizes a Raspberry Pico microcontroller and an ink screen display
 
 Connect the ink screen display to the Raspberry Pico according to the manufacturer's instructions.
 
-Power on the Pico and the display will initialize.
+Power on the Raspberry Pi and the display will initialize.
 
-Modify the script to display custom text or graphics.
+Copy all the scripts into the Raspberry Pi.
+
+Modify the credentials file with SSID and password for internet connection.
+
+Update the Site ID of interest. Search the ID of the station in SL's system by looking in https://www.trafiklab.se/api/trafiklab-apis/sl/transport/.
+
+Connect the device to a power outlet and let the device run as needed.
+
 
 # Contributing
 
